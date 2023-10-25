@@ -1,0 +1,218 @@
+body{
+
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container-form{
+
+    width: 65%;
+    background-image: url(image/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* here is the label styling  */
+
+input[type=text]{
+
+    width: 60%;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid lightblue;
+    background: transparent;
+    text-indent: 10px;
+
+}
+
+input[type=text]:focus{
+    font-size: 15px;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+label{
+    color: black;
+}
+
+/* here is email styling */
+
+input[type=email]{
+
+    width: 60%;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid lightblue;
+    background: transparent;
+    text-indent: 10px;
+
+}
+
+input[type=email]:focus{
+    font-size: 15px;
+    outline: none;
+}
+
+/* here is the tel styling  */
+
+input[type=tel]{
+
+    width: 60%;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid lightblue;
+    background: transparent;
+    text-indent: 10px;
+
+}
+
+input[type=tel]:focus{
+    font-size: 15px;
+    outline: none;
+}
+
+
+/* checkbox styling  */
+
+input[type=checkbox]{
+    border: 2px solid darkblue;
+    
+}
+
+.check{
+    padding: 5px;
+}
+
+/* select button styling */
+
+select{
+
+    width: 60%;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid lightblue;
+    background: transparent;
+    
+
+}
+
+/* .flex{
+    display: flex;
+    position: absolute;
+    margin: 0px auto;
+    padding-left: 11%;
+} */
+
+/* date styling */
+
+input[type=date]{
+
+    width: 57%;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid lightblue;
+    background: transparent;
+    outline: none;
+
+}
+
+/* file styling */
+
+input[type=file]{
+
+    width: 57%;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid lightblue;
+    background: transparent;
+
+}
+
+legend{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+fieldset{
+    margin: 8px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 139, 0.109);
+    
+}
+
+textarea{
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    background: transparent;
+    text-indent: 10px;
+    outline: none;
+}
+
+input[type=button]{
+    margin-bottom: 25px;
+    border-radius: 7px;
+    border: 2px solid rgb(0, 86, 139);
+    background-color: lightblue;
+    font-size: 18px;
+}
+input[type=button]:hover{
+    
+    color: blue;
+}
+
+input[type=reset]{
+    margin-bottom: 25px;
+    border-radius: 7px;
+    border: 2px solid rgb(0, 86, 139);
+    background-color: lightblue;
+    font-size: 18px;
+}
+input[type=reset]:hover{
+    
+    color: blue;
+}
+
+
+/* mobile responsive */
+
+@media (min-width: 320px) and (max-width: 768px) {
+    
+   
+    .container-form{
+        width: 100%;
+        
+    }
+   
+    legend{
+        padding-right: 2px;
+    }
+
+    fieldset{
+        font-size: 8px;
+    }
+
+    textarea{
+     max-width: 90%;
+    }
+
+    .top{
+        font-weight: bold;
+        font-size: 13px;
+    }
+}
+
+/* mobile responsive ends here */
+
+
+

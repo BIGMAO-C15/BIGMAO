@@ -1,0 +1,104 @@
+.bodybutton{
+
+
+    background-color: #dfdfdf;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+
+.social-buttons{
+
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+
+a{
+
+    text-decoration: none;
+    padding: 0px 20px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/*Facebook Custom Button*/
+
+.Facebook{
+
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #dfdfdf;
+}
+
+
+/*Twitter Custom Button*/
+
+.Twitter{
+
+    background-color: aqua;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #dfdfdf;
+
+}
+
+
+/*Instagram Custom Button*/
+
+.Instagram{
+
+    background-color: rgba(255, 0, 85, 0.747);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #dfdfdf;
+}
+
+
+
+/*My Landing Page Style Sheet*/
+
+.Landingbody{
+
+    background-image: url(/image/ag.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.Ayota{
+
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+.Ayota h1{
+
+    color: rgb(255, 255, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.Ayota p{
+
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Ayota a{
+    
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #dfdfdf;
+}

@@ -1,0 +1,930 @@
+
+*{
+
+    font-family: 'Oswald', sans-serif;
+
+    list-style-type: none;
+
+    text-decoration: none;
+
+    font-size: 18px;
+}
+
+
+
+.container{
+display: flex;
+background-color: darkturquoise;
+max-width: 100%;
+height: 100px;
+justify-content: space-around;
+/* padding: 10px; */
+align-items: center;
+text-transform: capitalize;
+
+}
+
+.logo img{
+    width: 100px;
+}
+
+.nav ul li{
+    display: inline-block; 
+    
+    
+}
+
+
+.nav{
+margin: 10px 10px;
+}
+
+.nav ul li a{
+    color: #ffffff;
+    padding:0 3px;
+    font-size: 15px;
+    
+}
+
+span.new{
+    background-color: #fb0f0f;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+/* the hinding of menu icons from the main pc desk */
+.span1{
+    display: none;
+}
+
+/* the hinding of menu bar from the main pc desk */
+
+/* .menu-bar{
+    display: none;
+} */
+
+/* using different means to see how this works */
+.menu-bar{
+    float: right;
+    padding-top: 20px;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.btn{
+    color: #ffffff;
+    font-size: 15px;
+    padding:5px;
+}
+
+.btn-login{
+    border: 1.5px white solid;
+    padding:6px 10px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    border: 1px red solid;
+    color: darkturquoise;
+    
+}
+
+.btn-starter{
+    background-color: rgb(34, 130, 130);
+    padding: 8px 10px;
+    border-radius: 5px;
+
+}
+
+
+
+/* end of menu bar section */
+
+
+
+/*  the second container section starts*/
+
+.section{
+
+    background-color: rgb(64, 70, 53);
+    color: white;
+    padding: 20px;
+}
+.title{
+    
+width: 60%;
+margin: 0 auto;
+text-align: center;
+}
+
+.title h1{
+    font-size: 45px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.title p{
+    font-family: 'Black Ops One', cursive;
+    color: bisque;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-file{
+    text-align: center;
+    margin: 20px;
+}
+
+.btn-find{
+    background-color: dodgerblue;
+    padding:20px 40px;
+    color: rgb(9, 9, 36);
+    
+}
+
+.img{
+    width: 50%;
+    margin: auto;
+}
+
+.img img{
+    width: 100%;
+    margin: 20px;
+
+}
+
+.fa-arrow-right:hover{
+    transform: scale(1.5);
+    
+}
+
+
+/* working on dropbox main services here */
+
+
+
+.service-main{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.part{
+    padding: 20px 18px;
+    margin-top: 15px;
+    
+}
+
+.services h1{
+    text-align: center;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: bisque;
+}
+
+.part > p:nth-child(2){
+    color: yellow;
+}
+
+.file{
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+}
+
+/* the second container section ends */
+
+
+
+
+/* the dropbox portfolio section */
+
+.portfolio{
+    background-color: rgb(12, 95, 109);
+    color: aliceblue;
+    margin-top: -28px;
+    
+    
+}
+
+
+.portfolio-image img{
+ 
+ width: 98%;
+ height: 250%; 
+}
+ 
+
+.portfolio-flex{
+ display: flex;
+} 
+
+.portfolio h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.portfolio-title h2{
+    color: yellowgreen;
+}
+
+.portfolio-section{
+    width: 90%;
+    padding:0 10px;
+    
+}
+    
+
+.portfolio-title{
+    background-color: rgb(44, 41, 41);
+    width: 98%;
+    height: 350px;
+    margin-top: -25px;
+    
+}
+
+.portfolio-title h2{
+   padding: 40px;
+   font-size: 25px;
+}
+
+.portfolio-title p{
+    padding: 0px 40px;
+    font-size: 18px;
+}
+
+.btn-port{
+    padding: 40px;
+    
+    
+}
+
+.btn-get{
+    background-color: dodgerblue;
+    padding: 15px 10px;
+    padding-right: 40px;
+    color: rgb(9, 9, 36);
+}
+
+/* cloud portfolio section */
+
+
+.cloud{
+width: 90%;
+margin: 30px;
+justify-content: space-between;
+padding-bottom: 40px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.storage{
+    display: flex;
+    padding: 20px 10px;
+}
+.clu > h3:nth-child(1){
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    /* justify-content: space-between; */
+}
+
+.clu > p:nth-child(2){
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.clu > p:nth-child(3){
+    font-size: 17px;
+    justify-content: space-around;
+}
+
+/* the cloud storage part of portfolio end */
+
+
+/* dropbox listing container*/
+
+
+
+.dropbox-listing{
+    background-color: rgb(16, 16, 24);
+    margin-top: -30px;
+    max-width: 100%;
+    height: 150vh;
+    /* padding-top: 80px; */
+    line-height: 28px;
+
+}
+
+.listting-flex{
+    display: flex;
+    padding-bottom: 95px;
+    /* position: relative; */
+    top: 50px;
+    
+
+}
+
+.asgmnt h3{
+  color: yellow;
+  margin: 0px 60px;
+  padding-top: 80px;
+  
+}
+
+.asgmnt a{
+     color: aliceblue;
+    justify-content: space-around;
+    margin-left: 20px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.asgmnt a:hover{
+    text-decoration: white;
+    
+}
+
+
+.worth-sharing{
+    background-color: rgb(40, 38, 38);
+   
+}
+
+.sharing{
+    padding: 70px;
+} 
+
+.btn-refer{
+    position: relative;
+    bottom: 110px;
+    left: 70%;
+    
+}
+
+
+.sharing p{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.refer{
+    background-color: dodgerblue;
+    padding: 25px;
+    
+}
+
+.fa-refer:hover{
+    transform: scale(1.5);
+    
+}
+    
+
+
+.fa-refer{
+    padding: 30px;
+}
+
+
+.icon a{
+    color: white;
+    margin: 3px;
+    padding: 5px;
+    position: relative;
+    left: 50px;
+}
+
+.icon a:hover{
+background-color: #2563eb;
+border-radius: 10px;
+
+}
+
+.rule{
+    width: 12%;
+    margin: 20px 50px;
+    color: white;
+    opacity: 60%;
+    
+}
+
+
+.lang{
+
+    padding: 15px 50px;
+    
+
+}
+
+.lang:hover{
+text-decoration: underline;
+color: white;
+}
+
+.lang a{
+    color: aliceblue;
+    justify-content: space-around;
+    font-size: 15px;
+    
+}
+
+.fa-globe{
+    font-size: 15px;
+}
+
+/* the responsiveness work starts here */
+ 
+  
+
+@media screen and (max-width: 1200px) {
+    .container{
+        background-color: rgb(71, 76, 72);
+    }
+    
+}
+
+
+/* here is the start of  Tablet Responsive */
+
+
+
+@media (min-width:769px) and (max-width:1024px) {
+    .container{ 
+       background-color: darkolivegreen;
+    }
+
+    .btn-login{
+        position: absolute;
+        right: 50%;
+        top: 70px;
+    }
+    
+    
+    .btn-starter{
+        position: absolute;
+        right: 31%;
+        top: 70px;
+    }
+
+
+
+    /* here is the title working*/
+
+    .title h1{
+        font-size: 40px;
+    }
+
+    .btn-find{
+        padding: 12px;
+        padding-right: 33px;
+    }
+
+    .img{
+        width: 70%;
+        
+    }
+
+
+    /* dropbox service part */
+
+    .part p{
+    font-size: 15px;
+    }
+
+
+
+    /* here this the working of the portfolio dropbox */
+
+    .portfolio-title h2{
+    font-size: 22px;
+    }
+
+    .portfolio-title p{
+    font-size: 17px;
+    }
+
+
+    .btn-get{
+    position: absolute;
+    top: 347%;
+        
+    } 
+    
+    .btn-port a{
+        font-size: 12px;
+        
+    }
+
+    /* ul{
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    } */
+
+    .sharing p{
+    font-size: 30px;
+    /* padding-bottom: 50px; */
+    } 
+
+    .refer{
+    padding:15px 10px;
+    border-radius: 10px;
+    }
+
+    .btn-refer{
+    left: 45%;
+    bottom: 50px;
+    }
+
+    .listing-one{
+    float: left;
+    margin-left: -30px;
+    }
+
+    .listing-one ol a{
+    font-size: 12px;
+    }
+
+    .listing-one h3{
+    font-size: 15px;
+    }
+
+
+
+    .listing-two{
+    float: left;
+    margin-left: -60px;
+    }
+
+    .listing-two ol a{
+    font-size: 12px;
+    }
+
+    .listing-two h3{
+    font-size: 15px;
+    }
+
+
+
+
+    .listing-three{
+    float: left;
+    margin-left: -60px;
+    }
+
+    .listing-three ol a{
+    font-size: 12px;
+    }
+
+    .listing-three h3{
+    font-size: 15px;
+    }
+
+
+
+    .listing-four{
+    float: right;
+    margin-left: -60px;
+    }
+
+    .listing-four ol a{
+    font-size: 12px;
+    }
+
+    .listing-four h3{
+    font-size: 15px;
+    }
+
+
+
+
+    .listing-five{
+    float: left;
+    margin-left: -60px;
+    }
+
+    .listing-five ol a{
+    font-size: 12px;
+    }
+
+    .listing-five h3{
+    font-size: 15px;
+    }
+
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive building */
+
+
+
+
+@media (min-width:481px) and (max-width:768px) {
+    .container{
+        /* background-color: purple; */
+        flex-direction: column;
+        position: relative;
+        background-color: rgb(64, 70, 53);
+    }
+
+    .nav ul li{
+        display: block; 
+    }
+
+    .logo {
+        position: absolute;
+        top: 10px;
+        left: 38%;
+
+    }
+
+    ul{
+        /* background-color: rgb(39, 118, 182); */
+        width: 80%;
+        position: absolute;
+        top: 80%;
+        height: 50vh;
+        right: 8%;
+        border-radius: 10px;
+        /* line-height: 40px; */
+
+        /* using here to make the menu box to appear only when the bar is clicked on */
+        left: -100%;
+        transition: 1.5s;
+          
+    }
+
+    .nav ul li{
+        padding:10px 30px;
+    
+    }
+
+    .span1{
+        display: inline-block;
+        
+    }
+
+    .span1 i{
+        padding: 0 3px;
+        font-size: 15px;
+        color: yellow;
+    }
+ /* the menu bar icon */
+
+ .menu-bar{
+    display: block;
+    color: #ffffff;
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    cursor: pointer;
+}
+
+#check{
+    /* display: block;   using this to make checkbox visible on mobile */
+    position: absolute;
+    top: 0;
+    display: none;
+}
+/* using this to get the checkbox sync with ul */
+#check:checked ~ ul{
+    /* background-color: hsl(0, 96%, 67%); */
+    left: 4%;
+    background-color: rgb(51, 67, 51);
+}
+
+.title{
+width: 100%;
+}
+
+.title h1{
+    font-size: 30px;
+    
+}
+
+.title p{
+    font-size: 16px;
+}
+
+.btn-find{
+    padding:10px 20px;
+    border-radius: 10px;
+}
+
+.img{
+    width: 100%;
+    margin-left: -18px;
+}
+   
+
+
+
+/* working on the dropbox mobileservice part here */
+
+
+
+
+.services h1{
+    font-size: 28px;
+}
+
+.service-main{
+    flex-direction: column;
+    
+}
+
+.file{
+    font-size: 35px;
+    left: 0;
+}
+
+.part p{
+ text-align: center;
+}
+    
+
+
+
+
+
+
+/* working on portolio here */
+
+.portfolio h1{
+    font-size: 35px;
+    color: antiquewhite;
+
+}
+
+.portfolio-flex{
+    display: block;
+    
+   } 
+
+   .portfolio-section{
+    width: 100%;
+   }
+
+   .portfolio-title{
+    text-align: center;
+}
+
+.btn-get{
+    padding: 15px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    
+}
+
+/* doing the responsive of cloud */
+
+
+
+.cloud h2{
+    font-size: 31px;
+    color: antiquewhite;
+}
+
+.cloud h3{
+    color: rgb(195, 218, 150);
+}
+
+.storage{
+    display: block;
+    text-align: center;
+
+}
+
+.cloud-one{
+    line-height: 10px;
+    padding: 10px 0;
+}
+
+.cloud-two{
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.cloud-three{
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.cloud-four{
+    line-height: 10px;
+    padding: 10px 0;
+}
+
+
+
+
+/* worth sharing working */
+ 
+.sharing p{
+    font-size: 25px;
+    padding-bottom: 50px;
+} 
+
+.btn-refer{
+    left: 40%;
+}
+
+.refer{
+    padding:15px 10px;
+    border-radius: 10px;
+}
+
+/* working on footer listing section */
+
+.listting-flex{
+ display: block;
+
+}
+
+.listing-one{
+    float: left;
+    margin-left: 20px;
+    padding-right: 55px;
+
+}
+
+.listing-three{
+    float: left;
+    margin-left: 20px;
+}
+
+.listing-five{
+    margin-left: 20px;
+}
+
+
+.asgmnt a{
+    /* color: aliceblue;
+   justify-content: space-around;
+   margin-left: 20px; */
+   font-size: 15px;
+}
+
+
+.dropbox-listing{
+    height: 250vh;
+    
+}
+
+.asgmnt h3{
+    color: yellowgreen;
+}
+
+.bottom{
+    margin-left: 25%;
+    padding-top: 2px;
+    line-height: 0.5px;
+
+}
+
+.fa-brands{
+    font-size: 15px;
+}
+
+.lang a{
+    font-size: 12px;
+}
+
+.fa-globe{
+    font-size: 15px;
+}
+
+}
+
+/* mobile responsive ends here */
+
+
+
+

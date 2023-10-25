@@ -1,0 +1,59 @@
+body {
+
+
+    background-color: #dfd9d9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+
+.social-buttons{
+
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+
+a {
+
+    text-decoration: none;
+    padding: 0px 20px;
+    margin: 20px;
+    color: rgb(2, 2, 17);
+    font-weight: bold;
+}
+
+
+/*Facebook Custom Button*/
+
+.Facebook{
+
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #dfd9d9;
+}
+
+/*Twitter Button Custom*/
+
+.Twitter{
+
+    background-color: rgb(36, 212, 201);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #dfd9d9;
+}
+
+
+
+/*Instagram Button Custom*/
+
+
+.Instagram{
+
+    background-color: rgb(253, 61, 99);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #dfd9d9;
+}

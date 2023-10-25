@@ -1,0 +1,53 @@
+body{
+    background-color: lightgray; 
+    color: white;
+   
+}
+.Ayota{
+    width: 15%;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 50%;
+    font-weight: bolder;
+    float: left;
+    margin-left: 50px;
+    
+}
+.div1{
+    background-color: red;
+
+}
+.div2{
+    background-color: orange;
+}
+.div3{
+    background-color: skyblue;
+}
+.div4{
+    background-color: navy;
+}
+.div5{
+    background-color:gold;
+}
+.div6{
+    background-color: gray;
+}
+.div7{
+    background-color: dodgerblue;
+}
+.div8{
+    background-color: rgb(240, 126, 215);
+    margin-bottom: 150px;
+}
+.foot{
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    clear: left;
+}
+footer{
+    padding-top: 30px; 
+}

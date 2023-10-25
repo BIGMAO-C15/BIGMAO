@@ -1,0 +1,67 @@
+body{
+
+    background-color: #facf97;
+}
+
+
+
+.learning{
+
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+.content{
+
+    background-color: #1f0040e0;
+    border-radius: 10px;
+    padding: 10px  30px;
+    color: yellow;
+}
+
+.Services{
+
+    background-color: orange ;
+    color: aliceblue;
+    width: 60%;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.Project{
+
+    background-color: orange ;
+    color: aliceblue;
+    width: 60%;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+.a{
+    color: white;
+    list-style-type: circle;
+}
+
+.b{
+    list-style-type: square ;
+}
+
+.c{
+
+    list-style-type: upper-alpha;
+    text-transform: lowercase;
+    color: #fff;
+}
+
+.d{
+
+    list-style-type: upper-roman;
+    text-transform: lowercase;
+}

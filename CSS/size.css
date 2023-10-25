@@ -1,0 +1,28 @@
+
+
+
+
+body{
+
+
+    background-color: gray;
+    /*margin: 0;
+    padding: 0;*/
+}
+
+.div{
+
+    background-color: orange;
+    color: aliceblue;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.div1{
+
+    background-color: purple;
+    color: aliceblue;
+    width: 50%;
+    margin: 20px auto;
+    height: 100 vh;
+}

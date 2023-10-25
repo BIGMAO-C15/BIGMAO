@@ -1,0 +1,19 @@
+.container{
+    background-image: linear-gradient(to right, red, orange);
+    background-size: cover;
+    padding: 60px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}  
+
+/* styling for the h2  */
+h2{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.name{
+    padding-left: 20px;
+}
+
